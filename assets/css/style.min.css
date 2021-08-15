@@ -24,10 +24,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   scroll-behavior: smooth;
-  color: #1e1e2d;
+  color: #fff;
   font-size: 16px;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #151524;
 }
 @media (max-width: 768px) {
   html,
@@ -59,15 +59,15 @@ article {
   display: block;
 }
 a {
-  color: #1e1e2d;
+  color: #fff;
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  color: #1e1e2d;
+  color: #04a54c;
 }
 p {
-  color: #b9b3b3;
+  color: #fff;
   font-size: 16px;
 }
 @media (max-width: 576px) {
@@ -259,6 +259,7 @@ main {
 }
 .goal-wrapper {
   padding: 100px 0;
+  background: #1e1e2d;
 }
 @media (max-width: 768px) and (min-width: 576px) {
   .goal-wrapper .service-hidden li {
@@ -299,7 +300,7 @@ main {
 }
 .goal-wrapper .service-hidden ul li {
   font-size: 52px;
-  color: #15ffff;
+  color: #01fe87;
   font-weight: 300;
 }
 .goal-wrapper .text-wrapper {
@@ -325,6 +326,7 @@ main {
 }
 .skills-wrapper {
   padding: 50px 0;
+  background: #151524;
 }
 @media (max-width: 576px) {
   .skills-wrapper li {
@@ -339,7 +341,7 @@ main {
   font-size: 32px;
   font-weight: 200;
   font-style: italic;
-  color: #939393;
+  color: #fff;
 }
 .skills-wrapper .skill {
   background-color: #1e1e2d;
@@ -360,7 +362,7 @@ main {
 }
 .about-wrapper {
   padding: 70px 0;
-  background-color: #fff;
+  background-color: #151524;
 }
 @media (max-width: 576px) {
   .about-wrapper .big-title {
@@ -377,7 +379,7 @@ main {
   content: "";
 }
 .about-wrapper .big-title {
-  -webkit-text-stroke: 1px #1e1e2d;
+  -webkit-text-stroke: 1px #fff;
   margin-bottom: 50px;
 }
 .approch-wrapper {
@@ -438,7 +440,7 @@ footer p {
   margin-bottom: 0;
   font-size: 42px;
   font-weight: 300;
-  color: #1e1e2d;
+  color: #fff;
 }
 footer a {
   text-decoration: underline;
@@ -573,6 +575,7 @@ footer .social li {
 
 .floating-wpp .floating-wpp-popup .floating-wpp-message {
   background-color: white;
+  color: #000;
   padding: 8px;
   border-radius: 0px 5px 5px 5px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
